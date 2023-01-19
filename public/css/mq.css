@@ -1,0 +1,266 @@
+/****
+ * Distance.to
+ * File: mq.css
+ * Media Queries
+ * (c) 2013 Stephan Georg
+ ****/
+
+  @media (min-width: 1280px) {
+    div#logo { }
+    #res-banner {
+      display: block;
+    }
+
+    .banner {
+      width: calc(27% - 30px);
+    }
+    .banner.static {
+      width: 50%;
+    }
+    
+    .btn {}
+
+ }
+
+ @media (min-width: 1024px) and (max-width: 1280px) {
+   div#logo {}
+   div#logo h1 { font-size: 26px; }
+   div#logo h2 { font-size: 22px; }
+
+   .banner {
+     width: 30%;
+   }
+   .banner.static {
+     width: 50%;
+   }
+ }
+
+
+
+ @media (min-width: 1024px) {
+   div#logo {
+     min-width: 430px;
+   }
+ }
+
+ @media (min-width: 720px) and (max-width: 1024px) {
+
+		div#logo {}
+		div#logo h1 { font-size: 26px; }
+		div#logo h2 { font-size: 22px; }
+
+    .banner {
+      width: 300px;
+    }
+    .banner.privacy {
+      width: 50%;
+    }
+
+ }
+
+ @media (max-width: 720px) {
+
+      body {
+        background: rgba(0,0,0,0.5);
+      }
+
+      h1,h2,h3,h4,h5 {
+        margin: 10px;
+      }
+
+			div#logo {
+        width: 96%;
+        padding: 1%;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+        position: relative;
+        margin: 1%;
+        background-color: #fff;
+        transition: box-shadow .25s;
+        border-radius: 2px;
+			}
+
+			div#sf {
+        text-align: center;
+      }
+
+			div#sf input:focus {
+				outline: none !important;
+			}
+
+      .consent {
+        background-color: rgba(0,0,0,0.9); /* Black background with opacity */
+      }
+
+      .cc_dialog {
+        padding: 2vh !important;
+      }
+
+      .cc_dialog .cc_dialog_text {
+        font-size: 15px !important;
+      }
+
+      .consentContent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: white;
+        transform: none;
+        -ms-transform: none;
+        width: 90%;
+        height: 90%;
+        padding: 5%;
+      }
+      .consentHead {
+        font-size: 20px;
+      }
+      .consentText img {
+        margin: 4px 13px 0px 0;
+      }
+      .consentBtns {
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        width: 90%;
+      }
+      .consentBtn {
+        display: block;
+      }
+      .consentBtn.decline {
+        margin: 20px 0;
+        font-size: 20px;
+      }
+
+      .typeaheadOuter {
+        display: inline-block;
+        width: calc(100% - 38px);
+      }
+      .twitter-typeahead {
+        width: 100%;
+      }
+      .tt-dropdown-menu {
+        margin-top: 1px;
+        margin-left: 2px;
+        width: 100%;
+      }
+
+      div#sf input.bd {
+        width: 96%;
+        margin: 3px;
+        padding: 6px;
+      }
+
+      .btn {
+        float: right;
+        right: 3px;
+        top: 7px;
+      }
+
+
+			div#sf input.bt {
+				text-align: center;
+        width: 94%;
+        margin: 3px 0 9px;
+
+			}
+
+      .toolbox {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+      .main-head {
+        padding: 0;
+        font-size: 16px;
+      }
+      span.claim {
+        font-size: 14px;
+      }
+      .main-distances {
+        padding: 0;
+        font-size: 14px;
+      }
+      .lang-select {
+        display: none;
+      }
+
+			div.map {
+        left: 0;
+			  position: relative;
+			  top: 0;
+				width: 100%;
+        height: 200px;
+				height: calc(98% - 330px);
+			}
+      div.map.privacy {
+        width: 100%;
+        height: 150px;
+      }
+
+      .banner-outer {
+        text-align: center;
+        padding: 5px;
+        background: rgba(0,0,0,0.1);
+        margin: 0;
+      }
+			.banner-inner {
+				position: relative;
+				bottom: auto;
+        margin: 0 !important;
+        padding: 0;
+
+			}
+
+      .mapAd {
+        right: 5px;
+        bottom: 20px;
+        padding: 5px;
+        font-size: 90%;
+      }
+
+			.banner {
+					height: 100px;
+					min-height: 100px;
+					padding: 0;
+					background: none;
+					width: 100% !important;
+          box-shadow: none;
+          font-size: 14px;
+			}
+
+      .banner-outer.banner-sticky {
+        position: fixed;
+        bottom: 0;
+        z-index: 5;
+        width: 98%;
+        height: 100px;
+        /*height: calc(100px + .5%);*/
+        padding: 1%;
+        background: rgba(0,0,0,0.8);
+      }
+      .banner-outer.banner-sticky.banner-320x50 {
+        height: 50px;
+      }
+
+
+      .information-block {
+        margin: 5px;
+      }
+      span.label {
+        font-size: 16px;
+      }
+
+			div.lcad {display: none;}
+
+      #userlike.userlike-mobile a#userlike-tab.userlike-right {
+        bottom: 140px !important;
+      }
+
+      .footer {
+        margin: 10px 0;
+        text-align: center;
+        margin-bottom: 150px;
+      }
+
+	}
